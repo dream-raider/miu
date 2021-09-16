@@ -1,0 +1,5 @@
+Situation A : (ii) Make it a local inner class, defined within myMethod() because no other method or class other than myMethod() is going to use it.
+
+Situation B : (iii) Make it an anonymous inner class, defined within myMethod() because it will be used just once and not refered again.
+
+Situation C : (i) Make it a member inner class

@@ -1,0 +1,4 @@
+Lesson 4= Pencil and Paper
+
+A. "In superclass" will get printed infinitely and stack overflow error will be thrown due to the infinite printing which exceeds the stack memery. 
+This error occurs due to the child class object which has been instantiated in the super class's constructor. As a child class constructor always calls paretns class constructor first, it calls the 'new BadInherit()' in the super class constructor which invokes the child class and the main method of the child class also instantiated the new obejct of child class which will invoke the child constructor printing "In BadInherit".
